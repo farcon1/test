@@ -1,5 +1,5 @@
 import xlwt
-import openpyxl as opx
+import openpyxl
 from openpyxl import load_workbook
 
 wb = openpyxl.load_workbook(filename = "ex.xlsx")
